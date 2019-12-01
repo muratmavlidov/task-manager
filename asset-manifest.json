@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/megapolis/static/css/main.d8b4c5a2.chunk.css",
+    "main.js": "/megapolis/static/js/main.17e83dfe.chunk.js",
+    "main.js.map": "/megapolis/static/js/main.17e83dfe.chunk.js.map",
+    "runtime-main.js": "/megapolis/static/js/runtime-main.515078ea.js",
+    "runtime-main.js.map": "/megapolis/static/js/runtime-main.515078ea.js.map",
+    "static/js/2.660d5ff7.chunk.js": "/megapolis/static/js/2.660d5ff7.chunk.js",
+    "static/js/2.660d5ff7.chunk.js.map": "/megapolis/static/js/2.660d5ff7.chunk.js.map",
+    "index.html": "/megapolis/index.html",
+    "precache-manifest.ae8dd4e56000d106d0481ab2e46e4f9d.js": "/megapolis/precache-manifest.ae8dd4e56000d106d0481ab2e46e4f9d.js",
+    "service-worker.js": "/megapolis/service-worker.js",
+    "static/css/main.d8b4c5a2.chunk.css.map": "/megapolis/static/css/main.d8b4c5a2.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.515078ea.js",
+    "static/js/2.660d5ff7.chunk.js",
+    "static/css/main.d8b4c5a2.chunk.css",
+    "static/js/main.17e83dfe.chunk.js"
+  ]
+}
