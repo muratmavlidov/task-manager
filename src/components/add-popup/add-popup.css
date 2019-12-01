@@ -1,0 +1,59 @@
+.overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, .1);
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.overlay--active {
+  display: flex;
+  animation: showPopup .3s ease-in-out;
+}
+
+.add-popup {
+  width: 465px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background: #fff;
+  position: relative;
+}
+
+.add-popup__formError {
+  display: block;
+  color: #ff0000;
+  font-size: 0;
+  transition: all .2s ease-in-out;
+}
+
+.add-popup__formError--active {
+  font-size: 12px;
+}
+
+.add-popup__btn {
+  float: right;
+  margin-top: 20px;
+}
+
+.add-popup__close {
+  position: absolute;
+  right: 25px;
+  top: 15px;
+  font-size: 25px;
+  color: red;
+  cursor: pointer;
+}
+
+
+@keyframes showPopup {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,44 @@
+.btn {
+  width: 148px;
+  height: 37px;
+  border-style: none;
+  border-radius: 3px;
+  background: transparent;
+  color: #333333;
+  font-size: 14px;
+  line-height: 35px;
+  cursor: pointer;
+  transition: background .1s linear;
+}
+
+.btn:active, .btn:focus {
+  outline: none;
+} 
+
+.btn:hover {
+  color: white;
+}
+
+.btn-success {
+  border: 1px solid #39b54a;
+}
+
+.btn-success:hover {
+  background: #39b54a;
+}
+
+.btn-info {
+  border: 1px solid #0071bc;
+}
+
+.btn-info:hover {
+  background: #0071bc;
+}
+
+.btn-danger {
+  border: 1px solid #ff0000;
+}
+
+.btn-danger:hover {
+  background: #ff0000;
+}

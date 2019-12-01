@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;;
+}
+
+.app {
+  max-width: 1140px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 10px 30px 50px;
+  border-radius: 5px;
+  margin-top: 40px;
+  font-family: Tahoma, sans-serif;
+  color: #333333;
+  background: #fff;
+  font-size: 14px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-field {
+  background-color: #f2f2f2;
+  padding-left: 15px;
+  border-style: none;
+  width: 100%;
+  height: 43px;
+  margin-bottom: 5px;
+}
+
+.form-field:focus {
+  outline: none;
+}
